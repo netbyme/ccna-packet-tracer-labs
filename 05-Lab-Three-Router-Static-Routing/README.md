@@ -1,4 +1,4 @@
-# Lab 02 — Three-Router Static Routing
+# Lab 05 — Three-Router Static Routing
 
 ## Objective
 
