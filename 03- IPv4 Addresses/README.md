@@ -157,11 +157,6 @@ The first ping may fail while the PC and router resolve MAC addresses using ARP.
     └── project-files-powershell.png
 ```
 
-### Local project files
-
-![Project files in PowerShell](images/project-files-powershell.png)
-
----
 
 ## Repository Commands
 
