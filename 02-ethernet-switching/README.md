@@ -1,16 +1,35 @@
-# 02 - Ethernet Switching
+# Lab 02 – Ethernet Switching
 
-Labs covering Layer 2 switching — MAC address tables,
-frame forwarding, and basic LAN topology.
+## Overview
 
-## Labs
+This lab demonstrates basic Layer 2 Ethernet switching, including MAC address learning, frame forwarding, and communication between devices in the same LAN.
 
-### ethernet-switching
-- **Topic:** Ethernet switching fundamentals
-- **Devices used:** 2x Cisco 2960 switches, 4x PCs
-- **Network:** 192.168.1.0/24
-- **What I practiced:**
-  - Building a basic LAN topology from scratch
-  - Connecting PCs through switches
-  - Verifying end-to-end connectivity with ping
-- **Result:** Successful ping between all hosts (0% loss)
+## Objectives
+
+- Build a basic switched LAN topology
+- Connect multiple PCs through Cisco switches
+- Configure IPv4 addresses on end devices
+- Observe how switches learn MAC addresses
+- Verify end-to-end connectivity using ping
+
+## Topology
+
+- **Switches:** 2 × Cisco 2960
+- **End devices:** 4 × PCs
+- **Network:** `192.168.1.0/24`
+- **Simulation software:** Cisco Packet Tracer
+
+## Skills Practiced
+
+- Connecting PCs to switches
+- Connecting two switches together
+- Configuring IPv4 addresses
+- Understanding Layer 2 frame forwarding
+- Checking the switch MAC address table
+- Testing connectivity between hosts
+
+## Verification Commands
+
+```text
+show mac address-table
+show interfaces status
