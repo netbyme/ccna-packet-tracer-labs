@@ -192,12 +192,3 @@ show mac address-table
 
 ```text
 06-Lab - Life of a Packet.pkt
-```
-
-## Course Reference
-
-This lab was completed as part of [Jeremy's IT Lab – Free CCNA 200-301 Course]
-
----
-
-This lab is part of my CCNA 200-301 study journey.
