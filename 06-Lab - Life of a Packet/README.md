@@ -187,8 +187,3 @@ show mac address-table
 - ARP maps a local or next-hop IPv4 address to a MAC address.
 - Switches learn source MAC addresses and forward frames.
 - Routers make Layer 3 forwarding decisions and rewrite the Layer 2 header.
-
-## Lab File
-
-```text
-06-Lab - Life of a Packet.pkt
